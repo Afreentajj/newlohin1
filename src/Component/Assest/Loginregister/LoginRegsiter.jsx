@@ -16,7 +16,7 @@ const LoginRegister = () => {
 
 
   return (
-    <div className={'wrapper${action}'}>
+    <div className={`wrapper${action}`}>
       <div className="form-box login">
         <form action="">
           <h1>Login</h1>
@@ -37,7 +37,7 @@ const LoginRegister = () => {
           </div>
           <button type="sumbit">Login</button>
           <div className="register-link">
-            <p> Dont have account  <a href="#" onClick={registerLink} >forgot password?</a></p>
+            <p> Dont have account  <a href="#" onClick={registerLink} >Register</a></p>
           </div>
           {/* <button type="sumbit">Login</button> */}
           {/* <div className="register-link">

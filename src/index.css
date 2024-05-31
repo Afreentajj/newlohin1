@@ -14,5 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: slateblue;
+  background: url('./Component/Assest/texture-2068283_1920.jpg');
+  background-size: cover;
+  background-position: center;
 }
