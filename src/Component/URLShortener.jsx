@@ -39,9 +39,11 @@ const URLShortener = () => {
             <a href={shortUrl} target="_blank" rel="noopener noreferrer">
               {shortUrl}
             </a>
-            <button onClick={handleCopy}>Copy</button>
+            <button id="copy-btn" style={{ width: '20px', padding: '8px 50px', fontSize: '14px',display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        Copy
+      </button>
           </div>
-          {qrCode && (
+          {qrCode && (    
             <div id="qr-code">
               <img src={qrCode} alt="QR Code" />
             </div>
