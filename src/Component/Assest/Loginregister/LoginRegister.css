@@ -1,10 +1,19 @@
 h1 {
     font-size: 48px;
     text-align: center;
-    color: #fff;
     margin-bottom: 30px;
 }
 
+.main-heading {
+    color: #3498db; /* Blue color for the main heading */
+}
+
+.wrapper h1,
+.wrapper .form-box h1 {
+    color: #000; /* Black color for all other headings */
+}
+
+/* Rest of your CSS */
 .wrapper {
     position: relative;
     width: 420px;
@@ -63,18 +72,22 @@ h1 {
     width: calc(100% - 40px);
     height: 100%;
     background: transparent;
-    border: none;
-    outline: none;
     border: 2px solid rgba(225, 225, 225, .1);
     border-radius: 40px;
     font-size: 16px;
     color: #333;
-    padding: 20px 20px 20px 20px; /* Adjusted padding */
+    padding: 0 20px; /* Adjusted padding */
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
 }
 
 .input-box input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+    color: #333; /* Black color for placeholder text */
     opacity: 1;
+}
+
+.input-box input:focus,
+.input-box input:hover {
+    border-color: #3498db; /* Change border color on focus and hover */
 }
 
 .input-box .icon {

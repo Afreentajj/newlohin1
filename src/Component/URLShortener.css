@@ -1,128 +1,126 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    /* background: linear-gradient(90deg, #a49fe4, #6b62ac); */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  html,
-  body {
-    height: 100%;
-  }
-  
-  .maincontainer {
-    width: 90%;
-    height: auto;
-    min-height: 350px;
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
-    background: url('../Component/Assest/texture-2068283_1920.jpg'); /* Adding the background image */
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image */
-    margin: auto;
-    position: relative; /* Add relative positioning */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* background: linear-gradient(90deg, #a49fe4, #6b62ac); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-  
-  h1 {
-    color: #fff;
-    text-align: center;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    color: #fff;
-  }
-  
-  form input[type="text"] {
-    width: calc(100% - 40px); /* Adjusted width to account for button */
-    padding: 10px;
-    margin: auto;
-    border-radius: 20px;
-    border: 2px solid #8f94fb;
-    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-  form button {
-    background-color: #fff;
-    color: #8f94fb;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 25px;
-    margin-top: 20px;
-    margin-left: -20px; /* Adjusted margin to align with input */
-  }
-  
-  form button:hover {
-    border: 2px solid #8f94fb;
-  }
-  
-  #short-url-container {
-    margin-top: 20px;
-    position: relative; /* Add relative positioning */
-  }
-  
-  #short-url-container p {
-    text-align: center;
-    color: #fff;
-  }
-  
-  #short-url {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #short-url a {
-    word-wrap: break-word;
-    margin-right: 10px;
-    color: #fff;
-  }
-  
-  #copy-btn {
-    background-color: #fff;
-    color: #8f94fb;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 15px;
-    font-size: 14px;
-    margin-top: 1rem;
-    max-width: 100%;
-    width: auto;
-  }
-  
-  #qr-code {
-    position: absolute;
-    top: 50%; /* Adjusted positioning */
-    right: 0;
-    transform: translateY(-50%); /* Center vertically */
-  }
-  
-  #qr-code img {
-    max-width: 200px;
-    height: auto;
-    z-index: 1; /* Move the image slightly behind */
-  }
-  
-  .credit a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 800;
-  }
-  
-  .credit {
-    text-align: center;
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
+html,
+body {
+  height: 100%;
+}
+
+.maincontainer {
+  width: 95%; /* Increased width */
+  height: auto;
+  min-height: 450px; /* Increased min-height for vertical elongation */
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+  background: url('../Component/Assest/texture-2068283_1920.jpg'); /* Adding the background image */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  margin: auto;
+  position: relative; /* Add relative positioning */
+}
+
+h1 {
+  color: #3498db; /* Blue color for the title */
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+form input[type="text"] {
+  width: calc(100% - 40px); /* Adjusted width to account for button */
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid #8f94fb;
+  box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+}
+
+form button {
+  background-color: #fff;
+  color: #8f94fb;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: -20px; /* Adjusted margin to align with input */
+}
+
+form button:hover {
+  border: 2px solid #8f94fb;
+}
+
+#short-url-container {
+  margin-top: 20px;
+  position: relative; /* Add relative positioning */
+}
+
+#short-url-container p {
+  text-align: center;
+  color: #fff;
+}
+
+#short-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#short-url a {
+  word-wrap: break-word;
+  margin-right: 10px;
+  color: #fff;
+}
+
+#copy-btn {
+  background-color: #fff;
+  color: #8f94fb;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-top: 1rem;
+  max-width: 100%;
+  width: auto;
+}
+
+#qr-code {
+  position: absolute;
+  top: 50%; /* Adjusted positioning */
+  right: 0;
+  transform: translateY(-50%); /* Center vertically */
+}
+
+#qr-code img {
+  max-width: 200px;
+  height: auto;
+  z-index: 1; /* Move the image slightly behind */
+}
+
+.credit a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

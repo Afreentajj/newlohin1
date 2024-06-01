@@ -28,7 +28,7 @@ const LoginRegister = ({ onForgotPasswordClick, onLoginSuccess }) => {
 
   return (
     <div>
-      <h1>URL SHORTENER</h1>
+      <h1 className="main-heading">URL SHORTENER</h1> {/* Add this class */}
       <div className={`wrapper${action}`}>
         <div className="form-box login">
           {!showForgotPassword ? (
