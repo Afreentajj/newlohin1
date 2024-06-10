@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   /* background: linear-gradient(90deg, #a49fe4, #6b62ac); */
+  color: black;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -40,7 +41,7 @@ form label {
   display: block;
   margin-bottom: 20px;
   margin-left: 10px;
-  color: #fff;
+  color: black;
 }
 
 form input[type="text"] {
@@ -74,20 +75,23 @@ form button:hover {
 }
 
 #short-url-container p {
+  font-size: 20px;
   text-align: center;
-  color: #fff;
+  color: black;
 }
 
 #short-url {
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #short-url a {
+  
   word-wrap: break-word;
   margin-right: 10px;
-  color: #fff;
+  color: black;
 }
 
 #copy-btn {

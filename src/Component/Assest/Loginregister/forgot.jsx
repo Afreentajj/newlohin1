@@ -38,7 +38,7 @@ const ForgotPassword = ({ onClose }) => {
 
   return (
     <div className="forgot-password-container">
-      <h2>Forgot Password</h2>
+      <h2 style={{ marginBottom: '20px' }}>Forgot Password</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
@@ -70,8 +70,8 @@ const ForgotPassword = ({ onClose }) => {
             required
           />
         </div>
-        <button type="submit">Reset Password</button>
-       
+        <button type="submit" style={{ display: 'block', margin: 'auto', padding: '10px 20px', fontSize: '14px' }}>Reset Password</button>
+
       </form>
     </div>
   );
